@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reminders Today</title>
+</head>
+<body>
+    <h1>🎉 Today's Birthdays & Anniversaries</h1>
+    {% if contacts %}
+        <ul>
+        {% for contact in contacts %}
+            <li>{{ contact.name }} - {{ contact.event_type.capitalize() }} 🎈</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No reminders today.</p>
+    {% endif %}
+
+    <hr>
+    <h2>Add Contact</h2>
+    <form method="POST" action="/add">
+        <input name="name" placeholder="Name" required>
+        <select name="event_type">
+            <option value="birthday">Birthday</option>
+            <option value="anniversary">Anniversary</option>
+        </select>
+        <input type="date" name="event_date" required>
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Shahina",
+      "relationship": "Sister",
+      "birthday": "2002-09-23",
+      "anniversary": null,
+      "phone": "+919944114973"
+    },
+    {
+      "name": "AKJ",
+      "relationship": "Father",
+      "birthday": "1966-05-21",
+      "anniversary": "1998-04-17",
+      "phone": "+971505129170"
+    },
+    {
+        "name": "Chithara",
+        "relationship": "Mother",
+        "birthday": "1977-07-09",
+        "anniversary": "1998-04-17",
+        "phone": "+917339570811"
+    },
+    {
+        "name": "Shiekh Mama",
+        "relationship": "Uncle",
+        "birthday": "1977-07-09",
+        "anniversary": "1997-05-02",
+        "phone": "+919363130051"
+    },
+    {
+        "name": "Sajidha Aunty",
+        "relationship": "Aunty",
+        "birthday": "1977-07-09",
+        "anniversary": "1997-05-02",
+        "phone": "+919344982176"
+    }
+  ]
