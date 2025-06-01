@@ -14,7 +14,7 @@ class Contact(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user_deets.id'), nullable=False)
 
     name = db.Column(db.String(100), nullable=False)
-    event_type = db.Column(db.String(20), nullable=False)  # 'birthday' or 'anniversary'
+    event_type = db.Column(db.String(20), nullable=False)
     event_date = db.Column(db.Date, nullable=False)
 
     def is_today(self):

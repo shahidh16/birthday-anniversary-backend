@@ -12,8 +12,8 @@ def add_contact():
     user_phone = data.get('user_phone')
     user_name = data.get('user_name')
     contact_name = data.get('contact_name')
-    event_type = data.get('event_type')  # 'birthday' or 'anniversary'
-    event_date_str = data.get('event_date')  # Format: YYYY-MM-DD
+    event_type = data.get('event_type')  
+    event_date_str = data.get('event_date') 
 
     # Validate input
     if not all([user_phone, user_name, contact_name, event_type, event_date_str]):
